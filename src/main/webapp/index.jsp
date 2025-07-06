@@ -23,10 +23,10 @@
     </header>
 
     <main>
-        <section id="mobiles" class="product-section">
+        <section id="phones" class="product-section">
             <h2>Smartphones</h2>
-            <div class="product-grid" id="mobile-product"> <!-- Bug: ID should be 'mobile-products' -->
-                <!-- Mobile products will be inserted here by JavaScript -->
+            <div class="product-grid" id="mobile-product"> <!-- Bug: ID should be 'phone-products' -->
+                <!-- Phone products will be inserted here by JavaScript -->
             </div>
         </section>
 
