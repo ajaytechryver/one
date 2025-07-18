@@ -39,11 +39,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexusRepo</id>
-            <url>http://52.20.232.154:8081/repository/maven-snapshots/</url>
+            <url>http://54.166.127.220:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexusRepo</id>
-            <url>http://52.20.232.154:8081/repository/maven-releases/</url>
+            <url>http://54.166.127.220:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
@@ -81,8 +81,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
             </plugin>
-        </plugins>
-    </build>
-
+                 
+            <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.0.0.4121</version>
+        </plugin>
+    </plugins>
+</build>
+        
 </project>
 
